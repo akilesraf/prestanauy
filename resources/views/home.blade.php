@@ -98,7 +98,7 @@
         </a>
 
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-3 col-sm-6" style = "display : none" >
         <a href="{{url('route')}}">
             <div class="widget stats-widget">
                 <div class="widget-body clearfix bg-deepOrange">
@@ -247,7 +247,7 @@
         </a>
 
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-3 col-sm-6" style = "display : none" >
         <a href="{{url('supervisor/bill/create')}}">
             <div class="widget stats-widget">
                 <div class="widget-body clearfix bg-pink">
@@ -304,7 +304,7 @@
         </a>
 
     </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-md-4 col-sm-6" style = " display : none ">
         <a href="{{url('bill')}}">
             <div class="widget stats-widget widget-resume">
                 <div class="widget-body h-100 clearfix bg-white">
