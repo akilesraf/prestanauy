@@ -186,7 +186,7 @@
             <div class="widget stats-widget">
                 <div class="widget-body clearfix bg-purple">
                     <div class="pull-left">
-                        <h3 class="widget-title text-white">Edicion cliente</h3>
+                        <h3 class="widget-title text-white">Edicion comercio</h3>
                     </div>
                     <span class="pull-right big-icon watermark"><i class="fa fa-edit"></i></span>
                 </div>
