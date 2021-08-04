@@ -136,7 +136,7 @@
         </a>
 
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-3 col-sm-6" style = "display : none">
         <a href="{{url('bill')}}">
             <div class="widget stats-widget">
                 <div class="widget-body clearfix bg-pink">
