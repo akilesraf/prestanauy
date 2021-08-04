@@ -41,12 +41,12 @@ class paymentController extends Controller
             ->get();
 
         foreach ($data_user as $data) {
-            if (db_credit::where('id_user', $data->id_user)->where('id_agent')->exists()) {
+            if (db_credit::where('id_user', $data->id_user)->where('id_agent*')->exists()) {
 
                 $data->setAttribute('credit_id', $data->id);
                 $data->setAttribute('amount_neto', ($data->amount_neto) + ($data->amount_neto * $data->utility));
                 $data->setAttribute('positive', $data->amount_neto - (db_summary::where('id_credit', $data->id)
-                        ->where('id_agent')
+                        ->where('id_agent*')
                         ->sum('amount')));
                 $data->setAttribute('payment_current', db_summary::where('id_credit', $data->id)->count());
             }
