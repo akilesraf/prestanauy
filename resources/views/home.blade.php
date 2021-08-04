@@ -63,7 +63,7 @@
             <div class="widget stats-widget">
                 <div class="widget-body clearfix bg-primary">
                     <div class="pull-left">
-                        <h3 class="widget-title text-white">Mostrar clientes</h3>
+                        <h3 class="widget-title text-white">Mostrar créditos otorgados</h3>
                     </div>
                     <span class="pull-right big-icon watermark"><i class="fa fa-th-list"></i></span>
                 </div>
@@ -71,7 +71,7 @@
         </a>
 
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-3 col-sm-6" style = "display : none" >
         <a href="{{url('simulator')}}">
             <div class="widget stats-widget">
                 <div class="widget-body clearfix bg-purple">
@@ -194,7 +194,7 @@
         </a>
 
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-3 col-sm-6" style = "display : none" >
         <a href="{{url('supervisor/tracker')}}">
             <div class="widget stats-widget">
                 <div class="widget-body clearfix bg-success">
