@@ -33,7 +33,7 @@ class paymentController extends Controller
     public function index()
     {
 
-        $data_user = db_credit::where('credit.*')
+        $data_user = db_credit
             ->join('users', 'credit.id_user', '=', 'users.id')
             ->select('credit.*', 'users.id as id_user',
                 'users.name', 'users.last_name'
