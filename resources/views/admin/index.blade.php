@@ -15,7 +15,7 @@
                                     <th>ID</th>
                                     <th>Usuario</th>
                                     <th>Nombre</th>
-                                    <th>Nivel</th>
+                                    <th style = "display:none" >Nivel</th>
                                     <th>Cartera</th>
                                     <th>Supervisor</th>
                                     <th></th>
@@ -26,7 +26,7 @@
                                             <td>{{$client->id}}</td>
                                             <td>{{$client->email}}</td>
                                             <td>{{$client->name}}</td>
-                                            <td>{{$client->level}}</td>
+                                            <td style = "display : none" >{{$client->level}}</td>
                                             <td>{{$client->wallet_name}}</td>
                                             <td>{{$client->supervisor}}</td>
                                             <td>
