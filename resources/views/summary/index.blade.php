@@ -9,7 +9,7 @@
                     <div class="col-md-12">
                         <div class=" p-lg text-right">
                             <a type="button" href="{{url('client')}}" class="btn btn-inverse"><i class="fa fa-users"></i> Mostar clientes</a>
-                            <a type="button" href="{{url('route')}}" class="btn btn-deepOrange"><i class="fa fa-car"></i> Continuar ruta</a>
+                            <a type="button" href="{{url('route')}}" class="btn btn-deepOrange"><i class="fa fa-reply"></i> Volver</a>
                         </div><!-- .widget -->
                     </div>
                     @if(app('request')->input('show')=='last')
