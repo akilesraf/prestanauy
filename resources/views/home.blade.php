@@ -50,7 +50,7 @@
             <div class="widget stats-widget">
                 <div class="widget-body clearfix bg-warning">
                     <div class="pull-left">
-                        <h3 class="widget-title text-white">Cliente nuevo</h3>
+                        <h3 class="widget-title text-white">Préstamo nuevo</h3>
                     </div>
                     <span class="pull-right big-icon watermark"><i class="fa fa-user"></i></span>
                 </div>
